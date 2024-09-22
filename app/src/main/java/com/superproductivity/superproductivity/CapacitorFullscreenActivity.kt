@@ -18,7 +18,7 @@ class CapacitorFullscreenActivity : BridgeActivity() {
         super.onCreate(savedInstanceState)
 
         // Register Plugin
-        // TODO:
+        this.registerPlugin(SUPPlugin::class.java)
 
         // Hide the action bar
         supportActionBar?.hide()
