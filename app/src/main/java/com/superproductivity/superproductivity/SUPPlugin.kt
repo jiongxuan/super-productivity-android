@@ -61,7 +61,6 @@ import javax.net.ssl.SSLHandshakeException
 class SUPPlugin : Plugin() {
 
     private lateinit var storageHelper: SimpleStorageHelper
-    private val scope = CoroutineScope(Dispatchers.IO)
 
     companion object {
         const val TAG = "SUPPlugin"
